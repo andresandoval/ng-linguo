@@ -1,6 +1,6 @@
 {
   "name": "@andresandoval/ng-linguo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Preprocesor for Angular i18n files",
   "main": "index.js",
   "scripts": {
