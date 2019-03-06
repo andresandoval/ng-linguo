@@ -19,8 +19,14 @@
   "bugs": {
     "url": "https://github.com/andresandoval/ng-linguo/issues"
   },
+  "bin": {
+    "ng-linguo": "./ng-linguo-cli.js"
+  },
   "homepage": "https://github.com/andresandoval/ng-linguo#readme",
   "dependencies": {
-    "flat": "^4.1.0"
+    "flat": "^4.1.0",
+    "minimist": "^1.2.0",
+    "properties-reader": "0.0.16",
+    "xmlbuilder": "^11.0.0"
   }
 }
