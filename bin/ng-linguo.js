@@ -1,8 +1,6 @@
 #! /usr/bin/env node
 const ngLinguo = require('../index');
 
-if (!process.stdin.isTTY) throw new Error('Invalid call method, TTY environment is expected...');
-
 /**
  * @type {{in: string, out: string, baseLocale: string}}
  */
