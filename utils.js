@@ -10,6 +10,7 @@ const utils = {
         }
         return string.toString().trim().length <= 0;
     },
+
     trimToNull: (string) => {
         if (utils.isNullOrEmpty(string)) {
             return null;

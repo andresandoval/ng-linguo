@@ -1,7 +1,7 @@
 {
   "name": "@andresandoval/ng-linguo",
   "version": "0.0.2",
-  "description": "Preprocesor for Angular i18n files",
+  "description": "Transpiler from .properties resource-bundle files, to XLIFF 1.2 files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,11 +20,10 @@
     "url": "https://github.com/andresandoval/ng-linguo/issues"
   },
   "bin": {
-    "ng-linguo": "./ng-linguo-cli.js"
+    "ng-linguo": "./bin/ng-linguo.js"
   },
   "homepage": "https://github.com/andresandoval/ng-linguo#readme",
   "dependencies": {
-    "flat": "^4.1.0",
     "minimist": "^1.2.0",
     "properties-reader": "0.0.16",
     "xmlbuilder": "^11.0.0"
